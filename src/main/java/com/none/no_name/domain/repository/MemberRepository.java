@@ -1,4 +1,4 @@
-package com.none.no_name.domain.member.repository;
+package com.none.no_name.domain.repository;
 
 import java.util.Optional;
 

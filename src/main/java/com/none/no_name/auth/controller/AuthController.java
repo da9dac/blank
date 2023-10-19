@@ -16,7 +16,7 @@ import com.none.no_name.auth.oauth.service.dto.OAuthResult;
 import com.none.no_name.auth.util.AuthConstant;
 import com.none.no_name.domain.member.entity.Authority;
 import com.none.no_name.domain.member.entity.Member;
-import com.none.no_name.domain.member.repository.MemberRepository;
+import com.none.no_name.domain.repository.MemberRepository;
 
 import jakarta.validation.Valid;
 

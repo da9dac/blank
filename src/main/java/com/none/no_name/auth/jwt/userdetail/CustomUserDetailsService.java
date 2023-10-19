@@ -6,7 +6,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.none.no_name.domain.member.entity.Member;
-import com.none.no_name.domain.member.repository.MemberRepository;
+import com.none.no_name.domain.repository.MemberRepository;
 import com.none.no_name.global.exception.business.member.MemberNotFoundException;
 
 @Service

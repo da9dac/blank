@@ -35,7 +35,7 @@ import com.none.no_name.auth.oauth.profile.MemberProfile;
 import com.none.no_name.auth.oauth.provider.OAuthProvider;
 import com.none.no_name.auth.oauth.service.dto.OAuthResult;
 import com.none.no_name.domain.member.entity.Member;
-import com.none.no_name.domain.member.repository.MemberRepository;
+import com.none.no_name.domain.repository.MemberRepository;
 
 @Service
 @Transactional(readOnly = true)
