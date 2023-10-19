@@ -6,6 +6,7 @@ import com.none.no_name.domain.playListComment.PlayListComment;
 import com.none.no_name.domain.playListLike.PlayListLike;
 import com.none.no_name.domain.playListTag.PlayListTag;
 import com.none.no_name.domain.plyaListMusic.PlayListMusic;
+import com.none.no_name.global.base.BaseEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -22,7 +23,7 @@ import static jakarta.persistence.CascadeType.ALL;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class PlayList {
+public class PlayList extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
